@@ -1,0 +1,157 @@
+:root {
+  --font: 'Heebo', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Light theme surfaces */
+  --bg-app: #F8FAFC;
+  --bg-surface: #FFFFFF;
+  --bg-surface-elevated: #FFFFFF;
+  --bg-column: #F1F5F9;
+  --bg-column-hover: #E9EEF5;
+  --bg-hover: #F1F5F9;
+  --bg-active: #E2E8F0;
+  --border: #E2E8F0;
+  --border-subtle: #EDF2F7;
+  --border-focus: #3B82F6;
+
+  /* Typography */
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #94A3B8;
+  --text-disabled: #CBD5E1;
+
+  /* Brand / Primary */
+  --primary: #2563EB;
+  --primary-hover: #1D4ED8;
+  --primary-active: #1E40AF;
+  --primary-soft: #EFF6FF;
+  --primary-soft-border: #BFDBFE;
+  --on-primary: #FFFFFF;
+  --focus-ring: rgba(37, 99, 235, 0.35);
+
+  /* Status & alerts */
+  --success: #10B981;
+  --success-soft: #ECFDF5;
+  --success-border: #A7F3D0;
+  --warning: #F59E0B;
+  --warning-soft: #FFFBEB;
+  --warning-border: #FDE68A;
+  --danger: #EF4444;
+  --danger-soft: #FEF2F2;
+  --danger-border: #FECACA;
+
+  /* Priority */
+  --p-low: #64748B;
+  --p-low-bg: #F1F5F9;
+  --p-medium: #D97706;
+  --p-medium-bg: #FEF3C7;
+  --p-high: #EA580C;
+  --p-high-bg: #FFEDD5;
+  --p-critical: #E11D48;
+  --p-critical-bg: #FFE4E6;
+
+  /* Spacing */
+  --s0: 2px;
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 24px;
+  --s6: 32px;
+  --s7: 48px;
+
+  /* Radiuses */
+  --r-xs: 4px;
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 14px;
+  --r-xl: 18px;
+  --r-full: 9999px;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-sm: 0 1px 3px rgba(15, 23, 42, 0.06), 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.07), 0 2px 4px -2px rgba(15, 23, 42, 0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(15, 23, 42, 0.1), 0 8px 10px -6px rgba(15, 23, 42, 0.06);
+  --shadow-card: 0 1px 3px rgba(15, 23, 42, 0.05), 0 1px 2px rgba(15, 23, 42, 0.03);
+  --shadow-card-hover: 0 8px 16px -2px rgba(15, 23, 42, 0.08), 0 3px 6px -2px rgba(15, 23, 42, 0.04);
+  --shadow-modal: 0 25px 50px -12px rgba(15, 23, 42, 0.25);
+
+  /* Glassmorphism & Effects */
+  --glass-bg: rgba(255, 255, 255, 0.85);
+  --glass-border: rgba(226, 232, 240, 0.8);
+  --glass-blur: 16px;
+  --t: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+:root[data-theme='dark'] {
+  /* Dark theme surfaces */
+  --bg-app: #090D16;
+  --bg-surface: #111827;
+  --bg-surface-elevated: #162033;
+  --bg-column: #121A29;
+  --bg-column-hover: #162135;
+  --bg-hover: #1E293B;
+  --bg-active: #28354A;
+  --border: #1F2A3D;
+  --border-subtle: #172131;
+  --border-focus: #60A5FA;
+
+  /* Typography */
+  --text-primary: #F1F5F9;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  --text-disabled: #475569;
+
+  /* Brand / Primary */
+  --primary: #3B82F6;
+  --primary-hover: #60A5FA;
+  --primary-active: #2563EB;
+  --primary-soft: rgba(59, 130, 246, 0.16);
+  --primary-soft-border: rgba(96, 165, 250, 0.3);
+  --on-primary: #FFFFFF;
+  --focus-ring: rgba(96, 165, 250, 0.4);
+
+  /* Status & alerts */
+  --success: #34D399;
+  --success-soft: rgba(52, 211, 153, 0.14);
+  --success-border: rgba(52, 211, 153, 0.3);
+  --warning: #FBBF24;
+  --warning-soft: rgba(251, 191, 36, 0.14);
+  --warning-border: rgba(251, 191, 36, 0.3);
+  --danger: #F87171;
+  --danger-soft: rgba(248, 113, 113, 0.16);
+  --danger-border: rgba(248, 113, 113, 0.3);
+
+  /* Priority */
+  --p-low: #94A3B8;
+  --p-low-bg: rgba(148, 163, 184, 0.12);
+  --p-medium: #FBBF24;
+  --p-medium-bg: rgba(251, 191, 36, 0.12);
+  --p-high: #FB923C;
+  --p-high-bg: rgba(251, 146, 60, 0.14);
+  --p-critical: #F87171;
+  --p-critical-bg: rgba(248, 113, 113, 0.16);
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 4px 6px -4px rgba(0, 0, 0, 0.4);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.6), 0 8px 10px -6px rgba(0, 0, 0, 0.5);
+  --shadow-card: 0 0 0 1px rgba(255, 255, 255, 0.05), 0 2px 4px rgba(0, 0, 0, 0.3);
+  --shadow-card-hover: 0 0 0 1px rgba(96, 165, 250, 0.3), 0 8px 20px rgba(0, 0, 0, 0.6);
+  --shadow-modal: 0 0 0 1px rgba(255, 255, 255, 0.08), 0 25px 50px -12px rgba(0, 0, 0, 0.85);
+
+  /* Glassmorphism & Effects */
+  --glass-bg: rgba(17, 24, 39, 0.82);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-blur: 16px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}
